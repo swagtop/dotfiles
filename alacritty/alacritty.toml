@@ -1,0 +1,8 @@
+[shell]
+program = "/usr/bin/env"
+args = ["bash", "-c", "zellij"]
+#args = ["bash", "-c", "zellij; exec bash"]
+
+[window]
+dimensions = { columns = 80, lines = 26 }
+

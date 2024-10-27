@@ -1,0 +1,6 @@
+inherits = "adwaita-dark"
+
+"ui.statusline" = { fg = "libadwaita_dark", bg = "active_window" }
+
+[palette]
+active_window = "#9e9c98"
