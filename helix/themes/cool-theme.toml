@@ -1,6 +1,8 @@
 inherits = "adwaita-dark"
 
 "ui.statusline" = { fg = "libadwaita_dark", bg = "active_window" }
+"ui.virtual.ruler" = { bg = "libadwaita_dark_middle" }
 
 [palette]
 active_window = "#9e9c98"
+libadwaita_dark_middle = "#202020"

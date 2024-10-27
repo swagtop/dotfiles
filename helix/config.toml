@@ -6,7 +6,17 @@ C-j = "jump_view_down"
 C-k = "jump_view_up"
 C-l = "jump_view_right"
 
+[editor]
+rulers = [80]
+bufferline = "always"
+
 [editor.cursor-shape]
 normal = "block"
 insert = "bar"
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
+wrap-indicator = ""
 
