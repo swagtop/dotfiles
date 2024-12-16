@@ -1,14 +1,10 @@
+# Visual stuff.
 theme = "cool-theme"
-
-[keys.normal]
-C-h = "jump_view_left"
-C-j = "jump_view_down"
-C-k = "jump_view_up"
-C-l = "jump_view_right"
 
 [editor]
 rulers = [80]
-bufferline = "always"
+cursorline = true
+# bufferline = "always"
 
 [editor.cursor-shape]
 normal = "block"
@@ -20,3 +16,13 @@ max-wrap = 25
 max-indent-retain = 0
 wrap-indicator = ""
 
+[editor.smart-tab]
+enable = false
+
+# Keybinds
+[keys.normal]
+C-h = "jump_view_left"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+C-l = "jump_view_right"
+'C-`' = "switch_to_uppercase"

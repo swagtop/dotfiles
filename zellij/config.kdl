@@ -1,6 +1,5 @@
 simplified_ui true
 pane_frames false
-theme "kanagawa"
 
 keybinds {
     unbind "Ctrl n" "Ctrl q" "Ctrl t" 
@@ -14,7 +13,8 @@ keybinds {
         unbind "Ctrl g"
         unbind "Ctrl p"
         unbind "Ctrl o"
-        bind "Alt d" { CloseFocus; }
+        unbind "Alt g"
+        bind "Alt x" { CloseFocus; }
         bind "Alt m" { NextSwapLayout; }
         bind "Alt o" { SwitchToMode "Session"; }
         bind "Alt s" { SwitchToMode "Search"; }
@@ -23,7 +23,26 @@ keybinds {
         bind "Alt g" { SwitchToMode "Locked"; }
         bind "Alt t" { NewTab; }
         bind "Alt f" { ToggleFloatingPanes; }
-        //bind "Alt o" { }
+        bind "Alt u" { HalfPageScrollUp; }
+        bind "Alt d" { HalfPageScrollDown; }
     }
 }
+
+themes {
+    default {
+        bg "#77767B"
+        fg "#9A9996"
+        black "#1D1D1D"
+        red "#1D1D1D"
+        green "#2EC27E"
+        yellow "#D79921"
+        blue "#1E78E4"
+        magenta "#9A9996"
+        cyan "#93DDC2"
+        violet "#7D8AC7"
+        white "#C0BFBC"
+        orange "#FFA348"
+    }
+}
+
 
